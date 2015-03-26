@@ -3,10 +3,117 @@
 	<head>
 		<title>jQuery Boilerplate</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-		<script src="../src/jquery.boilerplate.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="../src/jquery.slideList.js"></script>
 	</head>
 	<body>
-		<div id="element"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<button id="filter" type="button" class="btn btn-primary btn-block visible-xs">Filter <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+					<div class="content-slider">
+						<div class="slide current">
+							<ul class="list-group">
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia alias est quidem vero omnis possimus modi pariatur minima dolores at delectus harum perspiciatis eligendi reprehenderit ipsa nulla recusandae? Quasi. <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+							</ul>
+						</div>
+						<div class="slide">
+							<ul class="list-group">
+								<li class="list-group-item js-go-back">Back to Cras justo odio <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+							</ul>
+						</div>
+						<div class="slide">
+							<ul class="list-group">
+								<li class="list-group-item js-go-back">Back to Cras justo odio <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+								<li class="list-group-item">Cras justo odio <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></li>
+							</ul>
+						</div>
+						<div class="slide">
+							<ul class="list-group">
+								<li class="list-group-item js-go-back">Back to Cras justo odio <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+								<li class="list-group-item"> <span class="badge">14</span>Cras justo odio</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h3 class="panel-title">Thangs</h3>
+						</div>
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolor asperiores harum aspernatur officiis quia error qui quo animi quae iste cupiditate numquam illum sint officia veritatis maiores quidem. Dignissimos!</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h3 class="panel-title">Thangs</h3>
+						</div>
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolor asperiores harum aspernatur officiis quia error qui quo animi quae iste cupiditate numquam illum sint officia veritatis maiores quidem. Dignissimos!</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h3 class="panel-title">Thangs</h3>
+						</div>
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolor asperiores harum aspernatur officiis quia error qui quo animi quae iste cupiditate numquam illum sint officia veritatis maiores quidem. Dignissimos!</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script>
 			$(function() {
 				$("#element").defaultPluginName({

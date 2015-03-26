@@ -1,0 +1,29 @@
+.transition (@transition) {
+	-webkit-transition: @transition;
+	-moz-transition: @transition;
+	-ms-transition: @transition;
+	-o-transition: @transition;
+}
+
+.content-slider {
+	position: relative;
+	overflow: hidden;
+	min-height: 0px;
+	.transition(min-height 0.5s ease-in-out);
+	.slide {
+        .transition(left 0.5s ease-in-out);
+		position: absolute;
+		left: 110%;
+		width: 100%;
+		&.current {
+			z-index: 1;
+			left: 0;
+		}
+	}
+	@media (max-width: 767px) {
+		display: none;
+		&.mobile-showing-filters {
+			display: block;
+		}
+	}
+}
